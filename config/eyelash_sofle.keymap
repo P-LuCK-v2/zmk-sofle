@@ -49,7 +49,9 @@
 &kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo 1   &kp SPACE    &kp ENTER        &kp SPACE  &kp ENTER  &mo 2      &kp RIGHT_SHIFT  &kp DELETE
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+            sensor-bindings = <
+                        &inc_dec_kp MS_WH_U MS_WH_D // ホイールアップ ホイールダウン
+            >;
             display-name = "LAYER0";
         };
 
