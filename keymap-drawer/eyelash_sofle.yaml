@@ -61,9 +61,9 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - LANGUAGE 2
-  - {t: LANG1, h: toggle}
   - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: LANG1, h: toggle}
+  - LANGUAGE 2
   - $$mdi:backspace-reverse-outline$$
   layer1:
   - {t: '`', s: '~'}
